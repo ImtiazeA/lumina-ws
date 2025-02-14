@@ -1,5 +1,6 @@
 :root {
   --primary-color: #fcf5e9;
+  --dark-color: #333;
 }
 
 * {
@@ -34,6 +35,16 @@ body {
 
 .bg-primary {
   background: var(--primary-color);
+  color: #333;
+}
+
+.bg-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.bg-dark .bg-primary {
+  padding: 0 0.4rem;
 }
 
 .section-heading {
@@ -160,8 +171,6 @@ body {
 /* Services */
 
 .services {
-    background: #333;
-    color: #fff;
     padding: 3rem 0 4rem;
 }
 
